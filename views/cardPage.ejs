@@ -20,6 +20,9 @@
             <div class="text">
               <h2 data-splitting=""><%= data.titles[i] %></h2>
               <p data-splitting=""><%= data.artistName[i] %></p>
+              <form action=<%=data.url[i]%> method="get">
+                <button type="submit">Lyrics</button>
+              </form>
             </div>
           </div>
         <% }; %>  
